@@ -7,6 +7,6 @@ def home():
     return {
          "message": "Hello from EKS Deployment"
 }
-
+# This is a single-line comment
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
